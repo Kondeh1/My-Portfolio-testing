@@ -1,0 +1,762 @@
+body{
+  background-color: #F1EFEC;
+}
+.nav-bar{
+  background-color: #D4C9BE;
+  padding-top: 10px;
+  height: 33px;
+}
+ul{
+  position: absolute;
+  top: 5px;
+}
+
+li{
+  display: inline-block;
+  font-weight: bolder;
+  /* border: 0px 0px 0px 2px; */
+}
+.home-li{
+  padding-left: 999px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.About-li{
+  padding-left: 29px;
+}
+.Works-li{
+  padding-left: 20px;
+}
+
+.landing-page{
+  display: flex;
+}
+
+
+.circular-image-container {
+  width: 350px; /* Set desired width */
+  height: 340px; /* Set desired height (same as width) */
+  overflow: hidden; /* Hide any parts of the image that go beyond the circular container */
+  border-radius: 50%; /* Create the circular shape */
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+.circular-image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Ensure the image maintains aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire container */
+} 
+
+.content{
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 190px;
+  font-weight: bolder;
+  width: 50%;
+  justify-content: space-between;
+  font-family: "Andada Pro", serif;
+}
+.Home-butt{
+  margin-top: 22px;
+  font-size: 32px;
+  display: block;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Home-butt:hover{
+  background-color: rgb(12, 124, 158);
+}
+
+.Sp{
+  padding-left: 100px;
+}
+.h3-ele{
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.Ct{
+  text-decoration: none;
+}
+
+.landin-page-01{
+  /* background-color: red; */
+  width: 50%;
+  font-size: 19px;
+  height: 10%;
+  margin-right: 20px;
+  background-color: red;
+}
+.landin-page-01 > h1{
+  text-align: center;
+}
+.landin-page{
+  display: flex;
+}
+.Prof-det{
+  /* display: flex; */
+  /* background-color: red; */
+  width: 100%;
+  margin-left: 100px;
+}
+.Prof-det{
+  font-size: 20px;
+  padding-right: 10px ;
+}
+.h3-ele{
+  font-size: 40px;
+}
+
+.Info{
+  /* margin-top: 1px; */
+  width: 84%;
+  margin-bottom: 67%;
+  /* background-color: red; */
+}
+.Info > a{
+  text-decoration: none;
+  display: flex;
+}
+.Info > img{
+  float: left;
+}
+
+.res{
+  margin-top: 9px;
+  margin-left: 10.1px;
+}
+
+.git > img{
+  width: 7%;
+  height: 7%;
+}
+
+
+
+.lighter{
+  /* font-weight: lighter; */
+  color: darkgray;
+}
+.Works-head{
+  font-size: 40px;
+  text-align: center;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+.foo{
+  height: 355px;
+  width: 98vw;
+  background-color: #D4C9BE;
+  margin: 0;
+  position: absolute;
+  top: 900px;
+  font-family: "Andada Pro", serif;
+  border-radius: 20px 170px;
+}
+.fot-deta{
+  justify-self: center;
+  font-size: 35px;
+}
+.f-01{
+  margin-left: 63px;
+}
+.f-02{
+  margin-left: 190px;
+}
+.fot-mov{
+  margin-right: 90px;
+  width: 100%;
+}
+
+.fot-des{
+  margin-left: 130px;
+}
+
+.em-deta{
+  margin-left: 500px;
+  border-radius: 22px;
+}
+input{
+  position: absolute;
+  top: 253px;
+  font-size: 20px;
+}
+.sub-btn{
+  margin-left: 760px;
+  border-radius: 24px;
+}
+
+.p-det{
+  font-family: "Andada Pro", serif;
+}
+.p-det2{
+  font-family: "Andada Pro", serif;
+}
+.skills{
+  font-family: "Andada Pro", serif;
+}
+
+footer{
+  text-align: center;
+  padding-top: 11px;
+}
+
+
+/* Web Project*/
+
+.pro-01{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 24% 0px;
+}
+.pro-02{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 24% 0px;
+}
+.pro-03{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 24% 0px;
+}
+.pro-04{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 24% 0px;
+}
+.pro-12{
+  display: flex;
+  gap: 24px;
+}
+.pro-34{
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.webprojects{
+  justify-self: center;
+}
+
+.pro-01 > button{
+  margin-top: 85%;
+  margin-left: 40%;
+  background-color: blue;
+  border-radius: 24%;
+}
+.pro-01 > div > img{
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  border-radius: 24% 0px;
+  position: relative;
+  bottom: 393px;
+}
+.pro-01 > div > div{
+  /* background-color: white; */
+  padding-top: 51px;
+  margin-top: 135px;
+  margin-bottom: 30px;
+  width: 100%
+}
+.web-container{
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.z > div > h5{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 70px;
+  font-size: 16px;
+}
+.z > div > h5 > p{
+  font-size: 10px;
+}
+.prodiv > h5{
+  margin-top: 26px;
+  /* background-color: blue; */
+}
+.prodiv > h5 > div > button{
+  background-color: blue;
+  border-radius: 24% ;
+  border: white;
+}
+.pro-02 > .btn-pro02 > button > a{
+  color: white;
+  text-decoration: none;
+}
+
+.prodiv > h5 > div > button{
+  background-color: blue;
+  border-radius: 24% ;
+  border: white;
+}
+.prodiv > h5 > div > button > a{
+  color: white;
+  text-decoration: none;
+}
+.pro-02 > button{
+  margin-top: 85%;
+  margin-left: 40%;
+  background-color: blue;
+  border-radius: 24%;
+}
+.pro-03 > button{
+  margin-top: 85%;
+  margin-left: 40%;
+  background-color: blue;
+  border-radius: 24%;
+}
+.pro-04 > button{
+  margin-top: 85%;
+  margin-left: 40%;
+  background-color: blue;
+  border-radius: 24%;
+}
+
+.Wproject1{
+  border-radius: 24% 0px;
+  margin-top: 25px;
+  width: 50%;
+}
+.Wproject1 > .phone{
+  height: 500px;
+  width: 67px;
+  background-color: white;
+  position: absolute;
+  left:  913px;
+  top: 95px;
+}
+.project01-container{
+  margin-top: 62px;
+  /* background-color: red; */
+}
+.Wproject1 > .phone > img{
+  position: relative;
+  right: 1251%;
+  top: 165px;
+  width: 195px;
+  height: 388px;
+  border-radius: 0px 0px 24px 24px;
+}
+.Wproject1 > img{
+  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+}
+.pro01-h{
+  position: absolute;
+  top: 10%;
+  left: 78%;
+  font-size: 14px;
+  text-align: center;
+  width: 20%;
+}
+.underline{
+  position: absolute;
+  top: 15%;
+  left: 78%; 
+  background-color: blue;
+  width: 270px;
+  height: 3px;
+}
+.pro01-p{
+  position: absolute;
+  top: 18%;
+  left: 78%;
+  /* background-color: blue; */
+}
+.pro01-p > span{
+  font-weight: bold;
+}
+.tech{
+  position: absolute;
+  top: 40%;
+  left: 78%;
+}
+.appre{
+  position: absolute;
+  top: 55%;
+  left: 78%;
+}
+.tech-tool{
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  font-size: 11px;
+}
+.img-2{
+  width: 618px;
+  height: 445px;
+  position: absolute;
+  left: 280px;
+  top: 130px;
+  border-radius: 0px 8px 0px 0px ;
+}
+.des{
+  width: 100px;
+  height: 93px;
+  background-color:  hsl(212, 45%, 89%);
+  position: absolute;
+  top: 20.5%;
+  left: 215px;
+  border-radius: 8px 0px  0px 0px ;
+}
+.container{
+  margin-top: 140px; 
+}
+
+
+/* ABOUT CSS CONTENTS */
+.about-contents{
+  display: flex;
+  margin-bottom: 20px;
+}
+.about-container{
+  margin-top: 55px;
+  width: 100%;
+  /* background-color: red; */
+}
+.abt{
+  display: flex;
+}
+.Info-head{
+  /* width: 70%; */
+  font-size: 25px;
+  padding-right: 20px;
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  margin-top: 10px;
+}
+.add-det{
+  /* background-color: blue; */
+  margin-left: 5px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 8.6px;
+}
+.location{
+  display: flex;
+  margin-bottom: 3px;
+  width: 100%;
+}
+.add-image{
+  width: 5%;
+  height: 3%;
+  /* background-color: blue; */
+  margin-top: 5px;
+}
+.tel-num{
+  margin-top: 2px;
+  margin-left: 5px;
+  /* background-color: blue; */
+  font-size: 14px;
+}
+.tel{
+  width: 5%;
+  height: 3%;
+}
+.contact{
+  display: flex;
+  margin-bottom: 3px;
+}
+.ema-det{
+  margin-top: 2px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.ema-img{
+  width: 5%;
+  height: 3%;
+}
+.email{
+  display: flex;
+  margin-bottom: 3px;
+}
+.email > h5 > a{
+  text-decoration: none;
+}
+.git-det{
+  width: 80px;
+  margin-top: 3px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.git-img{
+  width: 5%;
+  height: 3%;
+}
+.github{
+  display: flex;
+}
+.github > h5 > a{
+  text-decoration: none;
+}
+.frontend > img{
+  color: black;
+  width: 5%;
+  height: 3%;
+}
+.frontend{
+  display: flex;
+}
+.frontend > a > h5{
+  font-size: 14px;
+  width: 180px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.frontend > a{
+  text-decoration: none;
+}
+
+.circular-image-container-1 {
+  width: 350px; 
+  height: 350px; 
+  overflow: hidden; /* Hide any parts of the image that go beyond the circular container */
+  border-radius: 50%; 
+  margin-top: 150px;
+  margin-left: 40px;
+}
+.circular-image-container-1 img{
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Ensure the image maintains aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+.skills{
+  /* background-color: red; */
+  margin-left: 90px;
+  font-size: 20px;
+  margin-top: 55px;
+}
+.skills > h4{
+  margin-top: 40px;
+}
+
+.B-01{
+  width: 50%;
+  height: 10px;
+  background-color: blue;
+}
+.B-02{
+  width: 55%;
+  height: 10px;
+  background-color: blue;
+}
+.B-03{
+  width: 60%;
+  height: 10px;
+  background-color: blue;
+}
+.B-04{
+  width: 80%;
+  height: 10px;
+  background-color: blue;
+}
+.B-05{
+  width: 95%;
+  height: 10px;
+  background-color: blue;
+}
+.Sp-01{
+  margin-left: 29px;
+}
+.Sp-02{
+  margin-left: 148px;
+}
+.Sp-03{
+  margin-left: 170px;
+}.Sp-04{
+  margin-left: 35px;
+}
+.Sp-05{
+  margin-left: 289px;
+}
+
+/* WORKS OR PROJECTS CONTENTS */
+.works-container{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.figma-cate > img{
+  display: inline-block;
+  height: 520px;
+  width: 500px;
+  border-radius: 24% 0px;
+}
+.webpro-cate > img{
+  display: flex;
+  height: 520px;
+  width: 500px;
+  border-radius: 24% 0px;
+  position: relative;
+}
+.Pro-Cate{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.btn-des{
+  text-align: center;
+  color: white;
+  justify-self: center;
+  font-size: 28px;
+  display: block;
+  border-radius: 30px;
+  background-color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 585px;
+}
+.btn-des:hover{
+  background-color: rgb(156, 225, 230);
+}
+.left-btn{
+ left: 65%;
+}
+.right-btn{
+  right: 67%;
+}
+
+
+
+
+
+
+                                /* RESPONSIVENESS FOR ALL SECTIONS*/
+
+                                
+@media screen and (max-width: 767px){
+                  /* HOME SECTION */
+  .landing-page{
+    flex-direction: column;
+    width: 100%;
+    /* margin-top: 70px; */
+  }
+  .circular-image-container{
+  width: 300px; /* Set desired width */
+  height: 300px; /* Set desired height (same as width) */
+  overflow: hidden; /* Hide any parts of the image that go beyond the circular container */
+  border-radius: 50%; /* Create the circular shape */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+
+  /* justify-content: center; */
+  }
+  .circular-image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Ensure the image maintains aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  .content{
+    /* background-color: white; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+    text-align: center;
+
+  }
+  .content > button{
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+                        /* ABOUT CONTENT */
+  .about-contents{
+    flex-direction: column;
+  }
+  .about-container > p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-container > h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Andada Pro", serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Info-head{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Andada Pro", serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+ 
+    
+    
+  
+  
+  
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+                     /* HOME SECTION */
+  .landing-page{
+  /* background-color: red; */
+  /* flex-direction: column; */
+  width: 100%;
+  height: 100%;
+  margin-top: 1px;
+}
+.circular-image-container{
+  width: 530px; /* Set desired width */
+  height: 340px; /* Set desired height (same as width) */
+  overflow: hidden; /* Hide any parts of the image that go beyond the circular container */
+  border-radius: 50%; /* Create the circular shape */
+  margin-right: 10px;
+  /* display: flex; */
+  margin-top: 80px;
+
+  /* justify-content: center; */
+  }
+  .circular-image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Ensure the image maintains aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  .content{
+    /* background-color: white; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 35px;
+    font-size: 35px;
+    margin-top: 125px;
+  }
+  .content > button{
+    font-size: 14px;
+    /* justify-self: center; */
+  }
+}
+
+ 
+.cmm{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
